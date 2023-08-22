@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: aquamarine;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  height: 62px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0px 13px;
+  text-transform: capitalize;
+}
+
+.brand img {
+  width: 44px;
+  padding: 0px 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.container {
+  min-height: 72vh;
+  background-color: black;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 20px;
+  background-image: url("photo-1620503292890.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buttom {
+  position: sticky;
+  height: 80px;
+  background-color: black;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+#myprogess {
+  width: 80vw;
+  cursor: pointer;
+}
+.icon {
+  margin: 14px 0px;
+}
+.icon i {
+  cursor: pointer;
+}
+.songitem {
+  display: flex;
+  height: 50px;
+  /* width: 80%; */
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  border-radius: 8px;
+  padding: 5px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.songitem img {
+  width: 43px;
+  margin: 0px 23px;
+  border-radius: 34px;
+}
+.timesp {
+  margin: 0px 23px;
+}
+.timesp i {
+  cursor: pointer;
+}
+.songinfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.7s ease-in;
+}
+.songitemcontainer {
+  margin-top: 64px;
+}
